@@ -2,14 +2,14 @@
 # The hash value is a bcrypt hash and can be generated with plugin/tools/hash.sh or online or provided gen_hash.py file
 
 admin:
-  hash: "$2b$12$ggORvzwnMGGhGXcFeF2ZWOzRJV1.RMhAeV8Cm6bPuebZXYsBqNqwq"
+  hash: "$2b$12$0WClOsVcRSOCgDl/tA/oreDLV1WMca4T2HYIHab9zXS8G2GzmPvNC"
   reserved: true
   backend_roles:
   - "admin"
   description: "Admin user"
 
-user1:
-  hash: "$2b$12$ggORvzwnMGGhGXcFeF2ZWOzRJV1.RMhAeV8Cm6bPuebZXYsBqNqwq"
+nrock:
+  hash: "$2b$12$0WClOsVcRSOCgDl/tA/oreDLV1WMca4T2HYIHab9zXS8G2GzmPvNC"
   reserved: false
   backend_roles:
   - "test"

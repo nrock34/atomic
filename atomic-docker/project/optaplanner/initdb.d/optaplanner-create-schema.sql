@@ -5,7 +5,7 @@ CREATE TABLE admin_user (
   role VARCHAR(255)
 );
 
-INSERT INTO admin_user (id, username, password, role) VALUES (1, 'admin', 'password', 'admin');
+INSERT INTO admin_user (id, username, password, role) VALUES (1, 'nrock', 'Nrock127234!', 'admin');
 
 create table event_optaplanner (id varchar(255) not null, hostId uuid, userId uuid, primary key (id));
 create table event_part_optaplanner (id int8 not null, dailyTaskList boolean not null, endDate varchar(255), eventId varchar(255), forEventId varchar(255), gap boolean not null, groupId varchar(255), hardDeadline varchar(255), hostId uuid, isExternalMeeting boolean not null, isExternalMeetingModifiable boolean not null, isMeeting boolean not null, isMeetingModifiable boolean not null, isPostEvent boolean not null, isPreEvent boolean not null, lastPart int4 not null, meetingId varchar(255), meetingLastPart int4 not null, meetingPart int4 not null, modifiable boolean not null, negativeImpactDayOfWeek int4, negativeImpactScore int4 not null, negativeImpactTime time, part int4 not null, positiveImpactDayOfWeek int4, positiveImpactScore int4 not null, positiveImpactTime time, preferredDayOfWeek int4, preferredEndTimeRange time, preferredStartTimeRange time, preferredTime time, priority int4 not null, softDeadline varchar(255), startDate varchar(255), taskId varchar(255), totalWorkingHours int4 not null, userId uuid, weeklyTaskList boolean not null, timeslot_id int8, primary key (id));

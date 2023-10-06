@@ -7,10 +7,11 @@ all_access:
     - "admin"
   users:
     - "admin"
+    - "nrock"
 
 read_only:
   reserved: false
   backend_roles:
     - "read_only"
   users:
-    - "user1"
+    - ""
